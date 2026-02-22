@@ -1,0 +1,7 @@
+services:
+  api:
+    image: librechat-api:local
+    build:
+      context: .  
+      dockerfile: Dockerfile.multi
+      target: api-build
