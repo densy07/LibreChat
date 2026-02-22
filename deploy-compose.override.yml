@@ -1,0 +1,5 @@
+services:
+  api:
+    image: ghcr.io/densy07/librechat-dev-api:latest
+    volumes:
+      - ./config:/app/config
