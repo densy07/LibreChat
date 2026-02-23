@@ -107,4 +107,4 @@ actions:
 endpoints:
   google:
     titleConvo: true
-    titleModel: 'gemini-2.0-flash-lite-001'
+    titleModel: 'gemini-2.5-flash-lite'
