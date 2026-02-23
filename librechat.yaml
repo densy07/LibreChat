@@ -84,7 +84,7 @@ interface:
     groups: true
     roles: true
   marketplace:
-    use: false
+    use: true
   fileCitations: true
   
 # Example Registration Object Structure (optional)
