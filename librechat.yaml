@@ -104,6 +104,10 @@ actions:
     - 'google.com'
     # - 'http://10.225.26.25:7894'  # Internal IP with protocol/port (uncomment if needed)
 
+fileConfig:
+  imageGeneration:
+    percentage: 100  # 保持原图尺寸，不压缩（支持4K）
+
 endpoints:
   google:
     titleConvo: true
